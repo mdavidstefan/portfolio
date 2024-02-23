@@ -9,6 +9,8 @@
   h1 {
     margin-top: 10px;
     font-weight: 800;
+    backdrop-filter: blur(100px);
+    backdrop-filter: url(commonfilters.svg#filter);
   }
 
   body {
@@ -16,14 +18,21 @@
     font-weight: 400;
     font-style: normal;
     color: #ADBC9F;
-    background-image: url("https://images.unsplash.com/photo-1516214104703-d870798883c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-color: #12372A;
   }
 
   .card {
     margin: 10px;
     border-radius: 20px;
+  }
+
+  img {
+    height: 95%;
+  }
+
+  .card-title {
+    color: #12372A;
+    font-weight: 600;
   }
 </style>
 
@@ -34,7 +43,7 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">BMI calculator</h5>
-          <img class="img-fluid" src="bmi.png" alt="BMI calculator">
+          <a href=""><img class="img-thumbnail" src="bmi.png" alt="BMI calculator"></a>
         </div>
         <div class="card-footer">
           <small class="text-muted">A Body Mass Index calculator program.</small>
@@ -43,7 +52,7 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Find the red</h5>
-          <img class="img-fluid" src="piros.png" alt="Find the red">
+          <a href="https://mdavidstefan.github.io/pirosrepo/"><img class="img-thumbnail" src="piros.png" alt="Find the red"></a>
         </div>
         <div class="card-footer">
           <small class="text-muted">A game similar to Minesweeper.</small>
