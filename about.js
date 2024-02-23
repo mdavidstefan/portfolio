@@ -4,7 +4,7 @@ const randNr = (min, max) => {
 
 
 export const about = () => {
-    document.getElementById('randnr').innerHTML += randNr(100, 1000)
+    //document.getElementById('randnr').innerHTML += randNr(100, 1000)
 }
 
 /*

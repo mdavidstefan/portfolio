@@ -5,6 +5,7 @@
 
     h1 {
         margin-top: 10px;
+        font-weight: 800;
     }
     
     body {
@@ -19,19 +20,37 @@
     .card {
         margin: 10px;
     }
+
+    .contact {
+        max-width: 20rem;
+    }
+
+    img {
+        max-height: 700px;
+    }
+
 </style>
 
 <div class="container">
     <div class="main" align="center">
         <h1 align="center">Contact</h1>
-        <div class="card text-white mb-3 information" style="max-width: 18rem; ">
-            <div class="card-header">About me</div>
-            <div class="card-body">
-                <ul>
-                    <li>I am 18 years old</li>
-                    <li>I love silly little kitty cats</li>
-                    <li>I train</li>
-                </ul>
+        <div class="row mt-5">
+            <div class="col-md">
+                <div class="card text-white mb-3 contact">
+                    <div class="card-header">About me</div>
+                    <div class="card-body">
+                        <ul>
+                            <li>I am 18 years old</li>
+                            <li>I love silly little kitty cats</li>
+                            <li>I train</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="img">
+                    <img src="https://images.unsplash.com/photo-1503435980610-a51f3ddfee50?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-fluid img-thumbnail">
+                </div>
             </div>
         </div>
     </div>
