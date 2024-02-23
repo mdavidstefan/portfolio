@@ -11,7 +11,7 @@ body {
 }
 
 .panel {
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px #12372A;
     color: #12372A;
     font-weight: bolder;
     flex: 1;

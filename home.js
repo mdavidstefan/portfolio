@@ -4,7 +4,7 @@ const panelBackgrounds = [
 
     "https://upload.wikimedia.org/wikipedia/commons/a/a6/Chrysippos_BM_1846.jpg",
 
-    "https://lh3.googleusercontent.com/proxy/LOCvF0ABWpMgMOeAO95r8mpwM1Ds9GYJN0JuTkm8BCqRnI3uqFgMJmQHnDI7CLwvuU1k4uYgK1lN-A_UX3fIpqomSuElb1qojviHIymTLW0-rvZdntabWhespafwM3kq6XwUGhtTjscBe34X-_8gdkc",
+    "https://www.der-roemer-shop.de/media/image/product/979/md/seneca-lucius-annaeus-bueste~5.jpg",
 
     "https://images.squarespace-cdn.com/content/v1/5ceef4e202ffea0001e29793/1581693828730-RHC56JEL04NA2G7FYNWG/epicitetus+wilnash+care.jpg",
 
