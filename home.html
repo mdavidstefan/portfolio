@@ -5,13 +5,59 @@
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
-        background-image: url("https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-        background-repeat: no-repeat;
-        background-size: auto;
+        background-color: #B6C4B6;
+    }
+
+    h1 {
+        margin-top: 10px;
+        font-weight: 800;
+        color: #163020;
+    }
+
+    img {
+        height: 40%;
+        width: 40%;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: #12372A 3px solid;
+    }
+
+    .information {
+        margin-top: 20px;
+        align-items: center;
+        max-width: 20rem;
+        background-color: #436850;
+        color: #ADBC9F;
+        text-align: justify;
+        border-radius: 20px;
+        border: 3px solid #12372A;
+    }
+
+    .container {
+        min-height: 90vh;
     }
 </style>
 
 
-<div class="panels">
+<div class="container">
+    <div class="main" align="center">
+        <h1>Hello, I'm Marton David Stefan.</h1>
 
+        <div class="img">
+            <img class="img-fluid" src="stefan.jpg">
+        </div>
+
+        <div class="card text-white mb-3 information">
+            <div class="card-header">About me</div>
+            <div class="card-body">
+                <ul>
+                    <li class="m-1">I'm an 18 year old student learning programming</li>
+                    <li class="m-1">I love cats and lifting weights</li>
+                    <li class="m-1">I am interested in classic Stoic philosophy</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 </div>
